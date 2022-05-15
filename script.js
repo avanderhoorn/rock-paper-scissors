@@ -31,7 +31,7 @@ const results = function () {
       target.id == 'paper'   && pc.dataset.id == 'rock'    || 
       target.id == 'scissor' && pc.dataset.id == 'paper') {
     msg.textContent = 'You Win!';
-  }
+  }  3ed e3
   msg.classList.remove('hidden');
   setTimeout(reset, 1500);
 }
